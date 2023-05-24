@@ -651,10 +651,9 @@ header nav .form i {
 .stats .container .box i {
 	width: 40px;
 	height: 40px;
-	display: flex;
+	display: grid;
+	place-items: center;
 	background-color: black;
-	justify-content: center;
-	align-items: center;
 	border-radius: 50%;
 	margin: 0 auto 30px;
 }
